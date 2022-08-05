@@ -163,17 +163,21 @@ export function Infoarea({ page }) {
         return(
             <section id='infoarea'>
                 <h2>Skills</h2>
+                <div id="skills">
+                        {
+                            skill_data.map((skill, i)=>(
+                                <Skillcard skill={skill} key={i} />
+                            ))
+                        }
+                </div>
+                <h2>Certifications</h2>
+                <div id="cert">
                     {
-                        skill_data.map((skill, i)=>(
-                            <Skillcard skill={skill} key={i} />
+                        cert_data.map((cert, i) => (
+                            <Certcard cert={cert} key={i} />
                         ))
                     }
-                <h2>Certifications</h2>
-                {
-                    cert_data.map((cert, i) => (
-                        <Certcard cert={cert} key={i} />
-                    ))
-                }
+                </div>
             </section>
         );
     }

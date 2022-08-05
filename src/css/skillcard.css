@@ -1,6 +1,6 @@
 .skillcard {
     display: inline-block;
-
+    flex-basis: auto;
     height: 150px;
     width: 250px;
     border: none;

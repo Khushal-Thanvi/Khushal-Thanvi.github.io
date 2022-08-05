@@ -19,3 +19,13 @@ h2 {
 
     border-bottom: 1px solid gray;
 }
+
+#skills {
+    display: flex;
+    flex-flow: row wrap;
+}
+
+#cert {
+    display: flex;
+    flex-flow: row wrap;
+}
