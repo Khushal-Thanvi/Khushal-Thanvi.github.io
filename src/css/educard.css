@@ -1,0 +1,12 @@
+.eduCard {
+    text-align: left;
+    margin: 20px;
+    margin-bottom: 0px;
+    margin-top: 0px;
+
+    padding: 10px 10px 10px 0px;
+}
+
+#date {
+    font-style: italic;
+}
